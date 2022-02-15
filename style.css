@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+.p-item img{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+}
+.p-item h3{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.samad-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(122, 118, 118, 0.7);
+    display: none;
+
+}
+/* .samad-modal .modal-content.active{
+    transform: translateY(0px);
+    opacity: 1;
+} */
+.samad-modal .modal-content{
+    width: 50%;
+    height: auto;
+
+}
+
